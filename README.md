@@ -10,7 +10,7 @@
 - flutter_svg: ^0.23.0+1 Null Safety
 
 
-
+```
 class ProductModel {
   final String? image, title, description;
   final int? price, size, id;
