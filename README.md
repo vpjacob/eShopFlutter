@@ -104,19 +104,23 @@ class ProductModel {
                                   ),
                                 ),
                               ),
+                              
 
 ```
 
 ### padLeft 
 
 ```
+
 Text(numOfItems.toString().padLeft(2, '0')
 String padLeft(int width, [String padding = ' ']);
+
 ```
 
 ### ButtonStyle
 
 ```
+
 ButtonStyle(
                   backgroundColor: MaterialStateProperty.all(
                       productModel?.color ?? Colors.transparent),
@@ -126,4 +130,5 @@ ButtonStyle(
                     ),
                   ),
                 )
+                
 ```
