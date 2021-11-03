@@ -1,8 +1,12 @@
 # e_shop
 
-![intro](image_home.png)
+## home
 
-![intro](image_detail.png)
+<img src="image_home.png" width="50%">
+
+## detail
+<img src="image_detail.png" width="50%">
+
 
 ## version 2.5.1 Null Safety
 
@@ -132,3 +136,16 @@ ButtonStyle(
                 )
                 
 ```
+
+### macos set window size
+设置desktop-app窗口为固定宽度
+
+```
+    self.setContentSize(NSSize(width: 400, height: 800))
+    let window:NSWindow!=self.contentView?.window
+    window.styleMask.remove(.resizable)
+
+
+```
+<img src="image_macOs_desktop.jpg" width="50%">
+
